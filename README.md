@@ -4,6 +4,8 @@ A Next.js app that demonstrates how to integrate [Sign in with Vercel](https://v
 
 Try it out at: [https://sign-in-with-vercel-reference-app.vercel.app](https://sign-in-with-vercel-reference-app.vercel.app)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fsign-in-with-vercel-reference-app&env=NEXT_PUBLIC_CLIENT_ID,CLIENT_SECRET&envDescription=After%20you%20create%20the%20application%2C%20you%20can%20find%20the%20client%20ID%20in%20the%20App%20settings%20page%2C%20and%20you%20will%20need%20to%20generate%20a%20client%20secret%20under%20the%20Authentication%20tab.)
+
 ## Getting Started
 
 Before running the app locally, make sure to first create a Vercel application in the Dashboard by navigating to Team Settings page → Apps → Create.

@@ -39,7 +39,7 @@ export async function GET(req: NextRequest) {
   });
 
   const queryParams = new URLSearchParams({
-    client_id: process.env.NEXT_PUBLIC_CLIENT_ID as string,
+    client_id: process.env.NEXT_PUBLIC_VERCEL_APP_CLIENT_ID as string,
     redirect_uri: `${req.nextUrl.origin}/api/auth/callback`,
     state,
     nonce,

@@ -8,7 +8,7 @@ export async function POST() {
     return Response.json({ error: "No access token found" }, { status: 401 });
   }
 
-  const credentials = `${process.env.NEXT_PUBLIC_CLIENT_ID}:${process.env.CLIENT_SECRET}`;
+  const credentials = `${process.env.NEXT_PUBLIC_VERCEL_APP_CLIENT_ID}:${process.env.VERCEL_APP_CLIENT_SECRET}`;
 
   const response = await fetch(
     "https://vercel.com/api/login/oauth/token/revoke",

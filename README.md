@@ -21,8 +21,8 @@ http://localhost:3000/api/auth/callback
 In the Authentication page, generate a Client Secret, and then add it along with the Client ID to the `.env.local` file in the root directory of the project:
 
 ```bash
-NEXT_PUBLIC_CLIENT_ID=""
-CLIENT_SECRET=""
+NEXT_PUBLIC_VERCEL_APP_CLIENT_ID=""
+VERCEL_APP_CLIENT_SECRET=""
 ```
 
 Additionally, under the **Permissions** page, you’ll need to assign the following scopes and permissions. These are required to display information about the logged-in user on the `/profile` page.

@@ -79,8 +79,8 @@ async function exchangeCodeForToken(
 ): Promise<TokenData> {
   const params = new URLSearchParams({
     grant_type: "authorization_code",
-    client_id: process.env.NEXT_PUBLIC_CLIENT_ID as string,
-    client_secret: process.env.CLIENT_SECRET as string,
+    client_id: process.env.NEXT_PUBLIC_VERCEL_APP_CLIENT_ID as string,
+    client_secret: process.env.VERCEL_APP_CLIENT_SECRET as string,
     code: code,
     code_verifier: code_verifier || "",
     redirect_uri: `${requestOrigin}/api/auth/callback`,

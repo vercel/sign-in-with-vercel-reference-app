@@ -54,7 +54,7 @@ export default async function Profile() {
         Access to the authorized application can be reviewed and revoked in your{" "}
         <Link
           target="_blank"
-          href={`https://vercel.com/account/settings/sign-in-with-vercel/connection_${process.env.NEXT_PUBLIC_CLIENT_ID}_${data.sub}`}
+          href={`https://vercel.com/account/settings/sign-in-with-vercel/connection_${process.env.NEXT_PUBLIC_VERCEL_APP_CLIENT_ID}_${data.sub}`}
           className="underline"
         >
           Account Settings

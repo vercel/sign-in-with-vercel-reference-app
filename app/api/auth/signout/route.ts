@@ -11,7 +11,7 @@ export async function POST() {
   const credentials = `${process.env.NEXT_PUBLIC_VERCEL_APP_CLIENT_ID}:${process.env.VERCEL_APP_CLIENT_SECRET}`;
 
   const response = await fetch(
-    "https://vercel.com/api/login/oauth/token/revoke",
+    "https://api.vercel.com/login/oauth/token/revoke",
     {
       method: "POST",
       headers: {

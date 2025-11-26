@@ -86,7 +86,7 @@ async function exchangeCodeForToken(
     redirect_uri: `${requestOrigin}/api/auth/callback`,
   });
 
-  const response = await fetch("https://vercel.com/api/login/oauth/token", {
+  const response = await fetch("https://api.vercel.com/login/oauth/token", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",

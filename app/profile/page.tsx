@@ -6,7 +6,7 @@ import TokenIntrospection from "../components/token-introspection";
 export default async function Profile() {
   const cookieStore = await cookies();
   const token = cookieStore.get("access_token")?.value;
-  const result = await fetch("https://vercel.com/api/login/oauth/userinfo", {
+  const result = await fetch("https://api.vercel.com/login/oauth/userinfo", {
     method: "GET",
     headers: {
       Authorization: `Bearer ${token}`,

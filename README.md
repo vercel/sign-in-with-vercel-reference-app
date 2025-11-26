@@ -18,6 +18,9 @@ While filling out the form, under **Authorization Callback URLs**, make sure to 
 http://localhost:3000/api/auth/callback
 ```
 
+You may also click "Add More" and select your project and allow `/api/auth/callback` for its preview and production deployments.  
+Read more on [Manage authorization callback URLs from the dashboard](https://vercel.com/docs/sign-in-with-vercel/manage-from-dashboard#configure-the-authorization-callback-url).
+
 In the Authentication page, generate a Client Secret, and then add it along with the Client ID to the `.env.local` file in the root directory of the project:
 
 ```bash

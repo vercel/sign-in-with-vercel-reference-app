@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-0 flex-1">
       <main>
-        <Link href="/api/auth/authorize">
+        <a href="/api/auth/authorize">
           <button
             type="button"
             disabled={loading}
@@ -31,7 +30,7 @@ export default function Home() {
             />
             {loading ? "Signing in with Vercel..." : "Sign in with Vercel"}
           </button>
-        </Link>
+        </a>
       </main>
     </div>
   );

@@ -8,7 +8,7 @@ Try it out at: [https://sign-in-with-vercel-reference-app.vercel.app](https://si
 
 ## Getting Started
 
-Before running the app locally, make sure to first create a Vercel application in the Dashboard by navigating to Team Settings page → Apps → Create.
+Before running the app locally, make sure to first create a Vercel application in the Dashboard by navigating to [Team Settings page → Apps → Create](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fsettings%2Fapps%2Fcreate%3Futm_campaign%3Dgithub-readme&title=Create+an+App).
 
 After you provide the basic app information, you’ll be redirected to the Manage page.
 
